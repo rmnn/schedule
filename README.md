@@ -2,7 +2,8 @@
 
 ## Current State
 
-This is POC of scheduler service presented as single application with in-memory database and provided schedule api with Open Api Spec presented below
+This is POC of scheduler service presented as single application with in-memory database and that provides schedule api.
+Open API spec presented below.
 
 ## Possible next steps
 
