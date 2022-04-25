@@ -3,6 +3,7 @@ package ru.dageev.schedule.repository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.DirtiesContext;
 import ru.dageev.schedule.models.Schedule;
 import ru.dageev.schedule.models.User;
 
@@ -14,6 +15,7 @@ import static java.time.Instant.now;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
+@DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_EACH_TEST_METHOD)
 class ScheduleRepositoryTest {
     @Autowired
     ScheduleRepository scheduleRepository;
