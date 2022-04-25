@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  schedule:
+    build: .
+    image: schedule:0.1.1
+    container_name: schedule
+    ports:
+      - "8080:8080"
