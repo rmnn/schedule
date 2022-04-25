@@ -9,7 +9,7 @@ This is POC of scheduler service presented as single application with in-memory 
 1. Migrate from in-memory db MySQL/Postgres
 2. Introduce authentication as separate service with OAuth 2.0
 3. Introduce Service Registry and api-gateway
-4. 
+ 
 ## Quick start
 
 ```
@@ -67,7 +67,7 @@ curl --location --request GET 'http://localhost:8080/api/schedules' \
 ```
 
 <details>
-  <summary>Open Api 3.0 Specification</summary>
+    <summary><h3>Open Api 3.0 Specification</h3></summary>
 
 ```
 openapi: 3.0.1
